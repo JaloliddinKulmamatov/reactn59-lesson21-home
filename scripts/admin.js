@@ -50,5 +50,7 @@ form.onsubmit = function(event) {
     removeBtn.onclick = function() {
       product.removeChild(card);
     };
+  }else {
+    alert("To'liq emas")
   }
 };
